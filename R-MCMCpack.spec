@@ -9,8 +9,9 @@ Group:            Sciences/Mathematics
 License:          GPL-3
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_1.2-1.tar.gz
-Requires:         R-coda R-MASS R-stats 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-coda R-MASS R-stats
+Requires:         R-coda R-MASS R-stats
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex
+BuildRequires:    R-coda R-MASS R-stats
 
 %description
 This package contains functions to perform Bayesian inference using
