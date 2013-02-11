@@ -1,2 +1,4 @@
+removed_sources:
+  MCMCpack_1.2-1.tar.gz: 185b71864ada13834435f4cfc7956a4241b79305
 sources:
-  "MCMCpack_1.2-1.tar.gz:"	185b71864ada13834435f4cfc7956a4241b79305
+  MCMCpack_1.2-4.tar.gz: af20a9df297b8fe888aab75c5f67be64cac64147
