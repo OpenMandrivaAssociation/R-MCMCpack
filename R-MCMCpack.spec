@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          1.2_4
-Release:          1
+Release:          2
 Summary:          Markov chain Monte Carlo (MCMC) Package
 Group:            Sciences/Mathematics
 License:          GPL-3
