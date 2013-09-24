@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          1.2_4
-Release:          2
+Version:          1.3.3
+Release:          1
 Summary:          Markov chain Monte Carlo (MCMC) Package
 Group:            Sciences/Mathematics
 License:          GPL-3
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_1.2-4.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/MCMCpack_1.3-3.tar.gz
 Requires:         R-coda R-MASS R-stats
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex
 BuildRequires:    R-coda R-MASS R-stats
@@ -50,3 +50,4 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/data
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/libs
+
