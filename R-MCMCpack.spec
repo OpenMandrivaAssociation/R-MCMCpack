@@ -2,16 +2,15 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          1.2_4
-Release:          2
+Version:          1.3.3
+Release:          1
 Summary:          Markov chain Monte Carlo (MCMC) Package
 Group:            Sciences/Mathematics
 License:          GPL-3
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_1.2-4.tar.gz
-Requires:         R-coda R-MASS R-stats
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex
-BuildRequires:    R-coda R-MASS R-stats
+Source0:          http://cran.r-project.org/src/contrib/MCMCpack_1.3-3.tar.gz
+Requires:         R-coda R-MASS R-stats 
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-coda R-MASS R-stats
 
 %description
 This package contains functions to perform Bayesian inference using
@@ -43,7 +42,7 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %doc %{rlibdir}/%{packname}/CITATION
 %doc %{rlibdir}/%{packname}/DESCRIPTION
 %{rlibdir}/%{packname}/INDEX
-%{rlibdir}/%{packname}/LICENSE
+# %{rlibdir}/%{packname}/LICENSE
 %{rlibdir}/%{packname}/NAMESPACE
 %{rlibdir}/%{packname}/Meta
 %{rlibdir}/%{packname}/R
